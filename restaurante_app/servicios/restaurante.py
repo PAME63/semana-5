@@ -6,19 +6,20 @@ class Restaurante:
         self.productos = []
         self.clientes = []
 
-    def 0(self, producto) -> None:
+    def agregar_producto(self, producto) -> None:
 
         self.productos.append(producto)
+        
 
     def agregar_cliente(self, cliente) -> None:
 
         self.clientes.append(cliente)
 
-    def mostrar_clientes(self) -> None:
+    def mostrar_producto(self) -> None:
 
 
-        for clientes in self.clientes:
-            print(clientes)
+        for productos in self.productos:
+            print(productos)
 
     def mostrar_clientes(self) -> None:
 
